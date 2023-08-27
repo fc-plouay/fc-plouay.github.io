@@ -9,7 +9,11 @@
   </head>
   <body>
     <header class="site-header" role="banner">
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">FC Plouay</a>
+      <h1>
+        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+          <img src="/images/logo-fond-transparent-petit.png" alt="FC Plouay" fetchpriority="high"/>
+        </a>
+      </h1>
     </header>
 
     <main class="page-content" aria-label="Content">
@@ -17,7 +21,9 @@
     </main>
 
     <footer class="site-footer h-card">
-      <h2 class="footer-heading">FC Plouay</h2>
+      <h2 class="footer-heading">
+        <img src="/images/logo-fond-transparent-petit.png" alt="FC Plouay"/>
+      </h2>
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
       </div>

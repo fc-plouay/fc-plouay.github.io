@@ -1,5 +1,6 @@
 :root {
   --couleur-primaire: #59C7E4;
+  --couleur-secondaire: black;
 
   --underline-max-width: 100%;
   --underline-hover-width: 0;
@@ -29,14 +30,26 @@ body {
 
 header {
   padding: 1rem;
-  background-color: var(--couleur-primaire);
+  background-color: var(--couleur-secondaire);
+  color: white;
+  text-align: center;
 }
+
+header a {
+  color: white;
+}
+
+header h1 a{
+  text-decoration: none;
+}
+
 
 footer {
   padding: 1rem;
   border-top: 4px solid var(--couleur-primaire);
-  background-color: black;
+  background-color: var(--couleur-secondaire);
   color: white;
+  text-align: center;
 }
 
 footer a {
