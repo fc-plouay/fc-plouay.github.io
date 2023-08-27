@@ -1,0 +1,52 @@
+:root {
+  --couleur-primaire: #59C7E4;
+
+  --underline-max-width: 100%;
+  --underline-hover-width: 0;
+  --underline-idle-width: var(--underline-max-width);
+  --underline-x: calc(var(--underline-max-width) * 0);
+  --underline-img: linear-gradient(0deg, currentColor, currentColor);
+  --external-link-content: "";
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, "DejaVu Sans", "Bitstream Vera Sans", Geneva, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  color: black;
+  background-color: white;
+}
+
+header {
+  padding: 1rem;
+  background-color: var(--couleur-primaire);
+}
+
+footer {
+  padding: 1rem;
+  border-top: 4px solid var(--couleur-primaire);
+  background-color: black;
+  color: white;
+}
+
+footer a {
+  color: white
+}
+
+main {
+  max-width: 70ch;
+  min-height: 50vh;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+

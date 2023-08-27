@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/style.css" | relative_url }}">
+    {%- feed_meta -%}
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">FC Plouay</a>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer h-card">
+      <h2 class="footer-heading">FC Plouay</h2>
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </footer>
+  </body>
+
+</html>
