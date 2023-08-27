@@ -67,6 +67,14 @@ footer a {
   color: white
 }
 
+.social ul {
+  display:flex;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 main {
   max-width: 70ch;
   min-height: 50vh;

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ "/style.css" | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     {%- feed_meta -%}
   </head>
   <body>
@@ -36,7 +38,18 @@
         <p>{{- site.description | escape -}}</p>
       </div>
       <a href="/contact">Contact</a>
-      <p class="rss-subscribe">Suivre l'information <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+      <div class="social">
+        <ul>
+          <li>
+            <a class="fa-solid fa-square-rss rss-subscribe" href="{{ "/feed.xml" | relative_url }}"></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/FcPlouay">
+              <i class="fa fa-brands fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 

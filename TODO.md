@@ -4,3 +4,10 @@
 - email de contact
 - définir les couleurs par défaut
 - Avoir un meilleur logo (SVG ?)
+- préparer quelques actualités
+- affiche une photo et un titre pour les actualités
+- avoir une photo pour l'accueil
+- définir le format de la date pour l'actualité
+- lister les équipes (catégories ?)
+- lister la composition des équipes
+- agenda de chaque équipe
