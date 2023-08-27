@@ -11,3 +11,4 @@
 - lister les équipes (catégories ?)
 - lister la composition des équipes
 - agenda de chaque équipe
+- liste des sponsors
