@@ -43,6 +43,17 @@ header h1 a{
   text-decoration: none;
 }
 
+header ul {
+  display:flex;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+header ul li {
+  font-weight: bolder;
+}
 
 footer {
   padding: 1rem;
